@@ -132,16 +132,64 @@ main{
 .container-texto h2{
     font-family: "DM Sans";
     font-weight: 700;
-    font-size: 24px;
+    font-size: 2.4rem;
     line-height: 26px;
-    color: var(--warm-black);
+    color: var(--black);
     padding-bottom: 20px;
 }
 
 .container-texto p{
     font-family: "DM Sans";
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 18px;
+    color: #757575;
+}
+
+.contenedor-tablas {
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+
+.contenedor-tablas .texto-contenedor-tablas{
+    font-family: "DM Sans";
+    font-weight: 700;
+    color: var(--bitcoin-orange);
+    size: 18px;
+    line-height: 2.3rem;
+    text-align: left;
+
+    margin-bottom: 15px;
+    margin-top: 10PX;
+    font-size: 1.8rem;
+}
+
+.main-contenedor-tablas{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.main-contenedor-tablas table{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.main-currency-table td{
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
     color: var(--grey);
+    background-color: var(--black);
+}
+.contenido-izquierda td{
+    color: #282623;
 }
