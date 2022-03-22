@@ -124,6 +124,8 @@ main{
     margin: 0 auto;
     background-image: url("../img/assets/imagenes/Bitcoin.svg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin-bottom: 50px;
 }
 
