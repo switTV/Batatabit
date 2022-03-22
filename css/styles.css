@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* colores */
+
+    --bitcoin-orange: #f7931a;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #282623;
+    --black: #201e1c;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "DM sans", sans-serif;
+}
+
+header {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+
+    background: rgb(32,30,28);
+    background: linear-gradient(243deg, rgba(32,30,28,1) 0%, rgba(247,147,26,1) 100%);
+}
+
+header .header--title-container h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    font-family: 'DM Sans';
+    color: var(--just-white);
+
+    margin-bottom: 25px;
+}
+header .header--title-container p{
+    font-weight: 500;
+    font-family: "DM Sans";
+    font-size: 14px;
+    color: var(--soft-orange);
+}
+
+header img{
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.header--title-container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.header--title-container .header--button{
+    position: absolute;
+    left: calc(50% - 118px);
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background: var(--off-white);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.header--title-container .header--button:hover{
+    cursor: pointer;
+}
