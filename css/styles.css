@@ -189,7 +189,7 @@ main{
     font-weight: 500;
     line-height: 1.9rem;
     color: var(--grey);
-    background-color: var(--black);
+    background-color: var(--just-white);
 }
 .contenedor-tablas .contenido-arriba-izquierda {
     border-radius: 15px 0 0 0;
