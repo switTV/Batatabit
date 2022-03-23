@@ -164,6 +164,7 @@ main{
 
     margin-bottom: 15px;
     margin-top: 10PX;
+    margin-left: 5px;
     font-size: 1.8rem;
 }
 
@@ -190,6 +191,6 @@ main{
     color: var(--grey);
     background-color: var(--black);
 }
-.contenido-izquierda td{
-    color: #282623;
+.contenedor-tablas .contenido-arriba-izquierda {
+    border-radius: 15px 0 0 0;
 }
