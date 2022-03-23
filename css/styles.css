@@ -168,6 +168,20 @@ main{
     font-size: 1.8rem;
 }
 
+.texto-contenedor-tablas-comisiones{
+    font-family: "DM Sans";
+    font-weight: 700;
+    color: var(--secondary-blue);
+    size: 18px;
+    line-height: 2.3rem;
+    text-align: left;
+
+    margin-bottom: 15px;
+    margin-top: 10PX;
+    margin-left: 5px;
+    font-size: 1.8rem;
+}
+
 .main-contenedor-tablas{
     width: 90%;
     min-width: 230px;
