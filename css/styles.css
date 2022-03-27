@@ -288,6 +288,13 @@ main{
     /* color: var(--just-white); */
 }
 
+.product--card-title span{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    border-bottom: #1a9af7 2px solid;
+}
+
 .product-detail-card .clock{
     display: inline-block;
     width: 20px;
@@ -297,6 +304,7 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    text-align: left;
 }
 
 .product-detail-card .eye{
@@ -308,6 +316,8 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: var(--bitcoin-orange);
+    text-align: left;
 }
 
 .product-detail-card .dollar{
@@ -319,6 +329,8 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: var(--bitcoin-orange);
+    text-align: left;
 }
 
 .product-detail-card .circle{
@@ -330,6 +342,8 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: var(--bitcoin-orange);
+    text-align: left;
 }
 
 .product-detail-card .product--card-title{
@@ -337,8 +351,21 @@ main{
     font-weight: 700;
     font-size: 1.8rem;
     line-height: 18px;
+
+    color: #fff;
+    text-align: left;
 }
 
 .product-detail-card .product--card-body{
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.8rem;
+    text-align: left;
+    color: #808080;
+}
 
+.container-span{
+    border-bottom: var(--bitcoin-orange) 2px solid;
+    margin-bottom: 15px;
 }
