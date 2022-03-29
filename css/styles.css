@@ -25,6 +25,7 @@ body{
 html {
     font-size: 62.5%;
     font-family: "DM sans", sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -219,6 +220,9 @@ main{
 
 
 
+
+
+
 .main-product-detail{
     position: relative;
     width: 100%;
@@ -372,6 +376,10 @@ main{
     justify-content: left;
     text-align: left;
 }
+
+
+
+
 
 .bitcoin-img-container{
     width: 100%;
