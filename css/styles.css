@@ -511,6 +511,7 @@ main{
 
 footer{
     width: 100%;
+    min-width: 320px;
 
     display: flex;
     justify-content: space-around;
