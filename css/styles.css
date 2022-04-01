@@ -517,6 +517,7 @@ footer{
     justify-content: space-around;
     background-color: var(--bitcoin-orange);
     padding: 20px;
+    align-items: center;
 }
 
 .links-footer li{
